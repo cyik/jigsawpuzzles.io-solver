@@ -5,7 +5,7 @@ from tkinter import messagebox
 from PIL import ImageGrab, Image, ImageTk
 
 # ===== SETTINGS =====
-TILE_SIZE = 60
+TILE_SIZE = 200
 N_OPTIONS = 3
 PUZZLE_IMAGE_PATH = "puzzle.png"  # your puzzle board image
 DISPLAY_MAX_W = 1200  # max window width for preview
