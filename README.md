@@ -1,15 +1,18 @@
-#Jigsawpuzzles.io solver by cyik
+# Jigsawpuzzles.io solver by cyik
 
 An automated jigsaw puzzle solver for jigsawpuzzles.io that tells you where every piece of a puzzle fits on a puzzle board. Simply screenshot the puzzle piece using snipping tool (Win + Shift + S) and the solver7.py scans the piece and overlays a green box directly on your screen at the exact spot where it belongs. Read the README word file to see setup instructions, you must follow it or it won't work.
 
 ![image alt](https://github.com/cyik/jigsawpuzzles.io-solver/blob/969105b1a7ebdcb4d21aac979fb08315c3924685/image.png)
 
-#FEATURES:
+# FEATURES:
 -Find where pieces belong on the board using OpenCV detection tool.
 -Show 3 highest probability chances for puzzle piece location.
 -Overlay transparent preview image over the board area.
 
-#USAGE:
+# INSTRUCTIONS:
+Read the README.docx for instructions on how to set up the program.
+
+# USAGE:
 Piece Reference Size describes how big the puzzle piece is in Pixels. Each puzzle has a different piece size relative to the puzzle board size, the more pieces the puzzle has, the smaller the puzzle piece size. It is important that you calculate the piece size relative to the puzzle size using the instructions in README.docx Word document.
 
 Overlay Duration slider tells the program how long to keep the green box overlay on the screen for. The Green Box overlay tells you where the program thinks the detected puzzle piece goes relative to the board area.
@@ -22,7 +25,7 @@ Show Full Overlay allows the user to show an overlay preview image of "puzzle.pn
 
 Set Board Area allows the user to set where the board is on their screen, it is important that you don't move your puzzle after setting the board area. It basically tells the program where the puzzle board frame is on your screen. So just highlight the frame of the puzzle exactly.
 
-#IMPORTANT NOTE:
+# IMPORTANT NOTE:
 There are limitations with OpenCV detection, so accuracy is not always 100%.
 
 P.S:
