@@ -4,10 +4,11 @@ An automated jigsaw puzzle solver for jigsawpuzzles.io that tells you where ever
 
 ![image alt](https://github.com/cyik/jigsawpuzzles.io-solver/blob/969105b1a7ebdcb4d21aac979fb08315c3924685/image.png)
 
-# FEATURES:
--Find where pieces belong on the board using OpenCV detection tool.
--Show 3 highest probability chances for puzzle piece location.
--Overlay transparent preview image over the board area.
+# Features:
+- **Piece Location Finder**: Find where pieces belong on the board using OpenCV detection tool.
+- **Show Top Guesses**: Show 3 highest probability chances for puzzle piece location.
+- **Image Overlay**: Overlay transparent preview image over the board area.
+- **Set Board Area**: Allows users to set the board area on their screen, allowing the program to place the solved puzzle piece directly on the location it belongs in on the screen.
 
 # INSTRUCTIONS:
 Read the README.docx for instructions on how to set up the program.
